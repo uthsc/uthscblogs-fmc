@@ -1,0 +1,20 @@
+//Import reverie stylesheet so we don't have to load 2.
+@import "partials/uthsc.reverie";
+//@import "compass";
+@import "app";
+
+@import "partials/uthsc.global";
+@import "partials/uthsc.pagination";
+@import "partials/uthsc.banner";
+@import "partials/uthsc.header";
+@import "partials/uthsc.footer";
+@import "partials/uthsc.topbar";
+@import "partials/uthsc.searchlabels";
+@import "partials/uthsc.widgets";
+@import "partials/uthsc.wordpress";
+@import "partials/uthsc.orbit";
+@import "partials/uthsc.footer-top";
+@import "partials/uthsc.footer-bottom";
+@import "partials/uthsc.anchortext";
+
+@import "partials/fmc.physicians";

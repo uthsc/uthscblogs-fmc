@@ -1,0 +1,10 @@
+.search-label {
+  display:none;
+}
+
+.search-results .search-label {
+  display: inline-block;
+  a {
+    color:#fff;
+  }
+}

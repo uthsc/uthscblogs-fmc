@@ -1,0 +1,73 @@
+#banner {
+
+  //@include background-image(linear-gradient($uthsc-green-dark 30%,$uthsc-green));
+  background: $uthsc-green;
+  background-color: $uthsc-green;
+  //border-bottom: 1px solid $uthsc-green-dark;
+
+  .brand-text {
+    @media #{$medium-up} {
+      //padding:1em;
+      //height:80px;
+      //background:url(/wp-content/themes/uthscblogs/img/uthsc-banner.jpg) no-repeat;
+      //background-position: center right;
+    }
+  }
+
+  .seam {
+    //border-bottom: 1px solid #004b37;
+    @media #{$medium-up} {
+
+    }
+  }
+
+  .site-title {
+    text-align:center;
+    //border-top: 1px solid #007f5d;
+    background: $uthsc-green-dark;
+
+    @media #{$medium-up} {
+      text-align:left;
+      min-height: 45px;
+    }
+  }
+
+  h1 {
+    //line-height: .9em;
+    font-size:1.8em;
+    margin:0;
+
+    a {
+      font-family: 'Open Sans';
+
+      color: #fff;
+      font-weight: 100;
+      //font-style: italic;
+      //@include single-text-shadow(2px, 2px, 2px, $color: #1b3328);
+    }
+  }
+
+  #brand {
+    padding:1em 0;
+    text-align:center;
+
+    @media #{$large-up} {
+      padding-left:0;
+    }
+
+    @media #{$medium-up} {
+      //background:url(/wp-content/themes/uthscblogs/img/banner-bg.png) no-repeat;
+      height:100%;
+    }
+
+    @media #{$small-only} {
+      //padding-bottom: 1em;
+    }
+  }
+}
+
+.ie9 {
+  #banner {
+    background:$uthsc-green;
+  }
+}

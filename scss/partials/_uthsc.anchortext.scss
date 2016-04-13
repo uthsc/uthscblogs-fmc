@@ -1,0 +1,49 @@
+.content-area {
+
+  p a, li a {
+    text-decoration: none;
+
+    background-image: linear-gradient(to top,
+            rgba(0,0,0,0) 11%,
+            rgba(0,0,0,.3) 11%,
+            rgba(0,0,0,.3) 16%,
+            rgba(0,0,0,0) 16%
+    );
+
+    &:hover{
+      background-image: linear-gradient(to top,
+              rgba(0,0,0,0) 11%,
+              rgba(0,106,77,1) 11%,
+              rgba(0,106,77,1) 16%,
+              rgba(0,0,0,0) 16%
+      );
+    }
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  }
+
+  //fix background on panels
+  .panel {
+    p a, li a{
+      text-shadow: -1px -1px 0 $panel-bg, 1px -1px 0 $panel-bg, -1px 1px 0 $panel-bg, 1px 1px 0 $panel-bg;
+    }
+  }
+
+  //fix instances where we don't want to use custom link style
+  li a.page-numbers,
+  .orbit-caption a,
+  .tabs .tab-title a
+  {
+    background-image: none;
+    text-shadow: none;
+    &:hover
+    {
+
+    }
+  }
+
+  //don't use background on strong links
+  p strong a, li strong a, a.read-more {
+    text-shadow: none;
+  }
+
+}
