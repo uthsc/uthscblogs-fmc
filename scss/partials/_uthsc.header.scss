@@ -5,7 +5,6 @@ header {
 
   &.contain-to-grid {
     //@include background-image(linear-gradient($uthsc-green 30%,$uthsc-green-dark 100%));
-    background:$uthsc-green;
     //border-top: 1px solid $uthsc-green-light;
 
     @media #{$medium-only} {

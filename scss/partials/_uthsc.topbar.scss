@@ -4,25 +4,20 @@
 
       li {
         &.active {
-          background: $uthsc-green-dark;
           &:not(.has-form) a:not(.button):hover {
-            background: $uthsc-green-dark;
           }
         }
 
         background: transparent;
       }
     }
-
     //fix for inconsistent background
     .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-      background: $uthsc-green-dark;
     }
   }
 
   form#searchform {
     input#searchsubmit {
-      background: $uthsc-green-dark;
     }
   }
 

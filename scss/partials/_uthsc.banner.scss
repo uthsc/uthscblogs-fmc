@@ -1,8 +1,6 @@
 #banner {
 
   //@include background-image(linear-gradient($uthsc-green-dark 30%,$uthsc-green));
-  background: $uthsc-green;
-  background-color: $uthsc-green;
   //border-bottom: 1px solid $uthsc-green-dark;
 
   .brand-text {
@@ -24,7 +22,6 @@
   .site-title {
     text-align:center;
     //border-top: 1px solid #007f5d;
-    background: $uthsc-green-dark;
 
     @media #{$medium-up} {
       text-align:left;
@@ -68,6 +65,5 @@
 
 .ie9 {
   #banner {
-    background:$uthsc-green;
   }
 }
