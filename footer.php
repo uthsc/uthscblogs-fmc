@@ -30,6 +30,10 @@
 
                                 <a href="https://fpcportal.uthsc.edu/" class="button secondary radius small"><span class="fa fa-clock-o"></span> Schedule an Appointment</a>
                         </div>
+                        <div class="columns medium-6 left">
+                            <a href="https://goo.gl/maps/8J6oFY13WN92">
+                                <img style="padding: 0;float: left;" class="th" src="https://maps.googleapis.com/maps/api/staticmap?center=35.6383834,-88.8330000&zoom=17&format=png&sensor=false&size=340x340&maptype=roadmap&style=feature:poi.medical|element:geometry|visibility:on|hue:0x006a4d">
+                            </a>
                         </div>
                     </div>
                 </div>
