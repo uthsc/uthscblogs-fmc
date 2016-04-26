@@ -62,18 +62,6 @@
             </div>
         </div>
         <div class="seam"></div>
-        <div class="site-title">
-            <div class="row">
-                <div class="medium-11 columns">
-                    <h1><a href="<?php echo esc_url(home_url('/')); ?>"
-                           title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
-                           rel="home"><?php bloginfo('name'); ?></a></h1>
-                </div>
-                <div class="medium-1 logout columns">
-
-                </div>
-            </div>
-        </div>
     </section>
 
     <header class="contain-to-grid sticky">
