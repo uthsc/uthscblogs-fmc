@@ -28,6 +28,7 @@
                                 <p>Monday 8am-9pm<br />
                                 Tuesday-Friday: 8am-5pm</p>
 
+                                <a href="https://fpcportal.uthsc.edu/" class="button secondary radius small"><span class="fa fa-clock-o"></span> Schedule an Appointment</a>
                         </div>
                         </div>
                     </div>
