@@ -55,8 +55,10 @@
     <section id="banner">
         <div class="row brand-text">
             <div id="brand" class="columns">
-                <a href="http://uthsc.edu"><img src="/wp-content/themes/uthscblogs/img/uthsc-wordmark.svg"
-                                                alt="UTHSC Wordmark"></a>
+                <a href="/">
+                    <p class="fmc-title">Family Medicine Center</p>
+                    <p class="fmc-slogan">The <img class="fmc-uthsc-future" src="/wp-content/themes/uthscblogs-fmc/img/uthsc-future.png" alt="future"> of healthcare today</p>
+                </a>
             </div>
         </div>
         <div class="seam"></div>
