@@ -42,6 +42,10 @@
     <link rel="apple-touch-startup-image"
           href="<?php echo get_template_directory_uri(); ?>/img/devices/reverie-load.png"
           media="screen and (max-device-width: 320px)"/>
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <!-- /Google Fonts -->
+
     <?php wp_head(); ?>
 </head>
 <body <?php body_class('antialiased'); ?>>
