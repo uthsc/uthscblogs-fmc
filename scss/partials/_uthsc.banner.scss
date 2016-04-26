@@ -51,17 +51,55 @@
     padding:1em 0;
     text-align:center;
 
+    p {
+      &.fmc-title {
+        font-family: 'Patua One', cursive;
+        color: #fff;
+        font-size: 4vw;
+        margin-bottom: 0;
+      }
+      &.fmc-slogan {
+        color: #333;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        .fmc-uthsc-future {
+          height: 1.2rem;
+          margin-top: -3px;
+        }
+      }
+    }
+
     @media #{$large-up} {
       padding-left:0;
     }
 
     @media #{$medium-up} {
-      //background:url(/wp-content/themes/uthscblogs/img/banner-bg.png) no-repeat;
-      height:100%;
+      p {
+        &.fmc-title {
+          font-size: 5vh;
+        }
+        &.fmc-slogan {
+          font-size: 1.2rem;
+          .fmc-uthsc-future {
+            height: 1rem;
+          }
+        }
+      }      height:100%;
     }
 
     @media #{$small-only} {
-      //padding-bottom: 1em;
+      p {
+        &.fmc-title {
+          font-size: 8vw;
+        }
+        &.fmc-slogan {
+          font-size: 1rem;
+          .fmc-uthsc-future {
+            height: .9rem;
+          }
+        }
+      }
     }
   }
 }
