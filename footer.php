@@ -17,6 +17,17 @@
                 <div class="columns text-center">
                     <br/>
 
+                    <div class="row">
+                        <div class="columns medium-6 text-right">
+                            <h3>&copy; <?php echo date("Y") ?> Family Medicine Center</h3>
+                            <p>294 Summar Drive<br />
+                                Jackson, TN 38301<br />
+                                Phone: (731) 423-1932<br />
+                                (800) 640-7589</p>
+                            <h3>Hours:</h3>
+                                <p>Monday 8am-9pm<br />
+                                Tuesday-Friday: 8am-5pm</p>
+
                         </div>
                         </div>
                     </div>
