@@ -4,4 +4,19 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   }
+
+  .fmc-faculty-highlight-text p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.4rem;
+  }
+
+  .fmc-health-reminders {
+    .fmc-health-reminders-photo {
+      width: 105px;
+    }
+    figcaption.wp-caption-text {
+      font-size: .6rem;
+    }
+  }
+
 }

@@ -146,18 +146,27 @@ $include-html-global-classes: $include-html-classes;
 // $emergency              : #a52a2a; this was the hex color for brown in the browser
    $emergency              : $uthsc-red-alert;
 
-// $uthsc-bookend-color        : $uthsc-grey-light;
    $uthsc-first-bookend-color  : $oil; // darken($uthsc-bookend-color, 70%);
    $uthsc-second-bookend-color : $silver; // $uthsc-bookend-color;
-   $uthsc-call-to-action       : $uthsc-blue;
+
+// FMC Colors
+
+   $fmc-light-blue         : #69D2E7;
+   $fmc-green              : #11C41D;
+   $fmc-blue-green         : #018290;
+   $fmc-mustard            : #D3B83F;
+   $fmc-red                : #D33F3F;
+
+   $fmc-call-to-action: $fmc-green;
+
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
-   $primary-color: $uthsc-green;
+   $primary-color: $fmc-light-blue;
 // $secondary-color: #e7e7e7;
-   $secondary-color: $uthsc-call-to-action;
+   $secondary-color: $fmc-green;
 // $alert-color: #f04124;
-   $alert-color: $uthsc-red-alert;
+   $alert-color: $fmc-red;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;

@@ -6,15 +6,15 @@
 #sidebar, .footer-widget {
   .panel {
     a {
-      color: $uthsc-green;
+      color: $fmc-blue-green;
       &:hover {
-        color: $uthsc-green-dark;
+        color: darken($fmc-blue-green, 10);
       }
     }
   }
   .widget {
     h4 {
-      color: $uthsc-green;
+      color: $fmc-green;
     }
   }
 }

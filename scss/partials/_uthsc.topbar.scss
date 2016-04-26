@@ -3,26 +3,36 @@
     ul {
 
       li {
+
+        a {
+          font-weight: bold;
+        }
+
         &.active {
-          background: $uthsc-green-dark;
+          background: $fmc-green;
           &:not(.has-form) a:not(.button):hover {
-            background: $uthsc-green-dark;
+            background: $fmc-green;
           }
+        }
+        &:not(.has-form) a:not(.button):hover {
+          background: $fmc-green;
         }
 
         background: transparent;
       }
     }
-
+    li.active:not(.has-form) a:not(.button) {
+      background: $fmc-green;
+    }
     //fix for inconsistent background
     .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-      background: $uthsc-green-dark;
+      background: red;
     }
   }
 
   form#searchform {
     input#searchsubmit {
-      background: $uthsc-green-dark;
+      background: $fmc-green;
     }
   }
 

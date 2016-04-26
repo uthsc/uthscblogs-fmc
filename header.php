@@ -42,6 +42,11 @@
     <link rel="apple-touch-startup-image"
           href="<?php echo get_template_directory_uri(); ?>/img/devices/reverie-load.png"
           media="screen and (max-device-width: 320px)"/>
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <!-- /Google Fonts -->
+
     <?php wp_head(); ?>
 </head>
 <body <?php body_class('antialiased'); ?>>
@@ -50,23 +55,13 @@
     <section id="banner">
         <div class="row brand-text">
             <div id="brand" class="columns">
-                <a href="http://uthsc.edu"><img src="/wp-content/themes/uthscblogs/img/uthsc-wordmark.svg"
-                                                alt="UTHSC Wordmark"></a>
+                <a href="/">
+                    <p class="fmc-title">Family Medicine Center</p>
+                    <p class="fmc-slogan">The <img class="fmc-uthsc-future" src="/wp-content/themes/uthscblogs-fmc/img/uthsc-future.png" alt="future"> of healthcare today</p>
+                </a>
             </div>
         </div>
         <div class="seam"></div>
-        <div class="site-title">
-            <div class="row">
-                <div class="medium-11 columns">
-                    <h1><a href="<?php echo esc_url(home_url('/')); ?>"
-                           title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"
-                           rel="home"><?php bloginfo('name'); ?></a></h1>
-                </div>
-                <div class="medium-1 logout columns">
-
-                </div>
-            </div>
-        </div>
     </section>
 
     <header class="contain-to-grid sticky">
