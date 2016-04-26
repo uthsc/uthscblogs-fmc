@@ -6,12 +6,15 @@
 #sidebar, .footer-widget {
   .panel {
     a {
+      color: $fmc-blue-green;
       &:hover {
+        color: darken($fmc-blue-green, 10);
       }
     }
   }
   .widget {
     h4 {
+      color: $fmc-green;
     }
   }
 }

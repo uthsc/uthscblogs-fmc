@@ -1,6 +1,11 @@
 .content-area {
 
   p a, li a {
+
+    color: $fmc-blue-green;
+    &:hover {
+      color: darken($fmc-blue-green, 10);
+    }
     text-decoration: none;
 
     background-image: linear-gradient(to top,
