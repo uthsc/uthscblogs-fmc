@@ -18,7 +18,7 @@
                     <br/>
 
                     <div class="row">
-                        <div class="columns medium-6 text-right">
+                        <div class="columns medium-6 small-text-center medium-text-right">
                             <h3>&copy; <?php echo date("Y") ?> Family Medicine Center</h3>
                             <p>294 Summar Drive<br />
                                 Jackson, TN 38301<br />
