@@ -47,20 +47,8 @@ article {
 
   header {
     h2, h1.entry-title {
-      font-size: 1.5em;
-
-      @media #{$medium-up} {
-        font-size: 1.7em;
-      }
+      font-size: 2em;
     }
-  }
-}
-
-h2, h1.entry-title {
-  font-size: 1.5em;
-
-  @media #{$medium-up} {
-    font-size: 1.7em;
   }
 }
 
