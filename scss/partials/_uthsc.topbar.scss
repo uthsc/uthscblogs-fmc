@@ -21,12 +21,14 @@
         background: transparent;
       }
     }
+    ul li:hover:not(.has-form) > a,
     li.active:not(.has-form) a:not(.button) {
-      background: $fmc-green;
+      background: $fmc-blue-green;
     }
+
     //fix for inconsistent background
     .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-      background: red;
+      background: $fmc-green;
     }
   }
 
@@ -39,6 +41,9 @@
   @media #{$large-up} {
     .has-form.has-form-search {
       padding-right: 0;
+    }
+    .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+      background: $fmc-blue-green;
     }
   }
 }
