@@ -56,7 +56,7 @@
         <div class="row brand-text">
             <div id="brand" class="columns">
                 <a href="/">
-                    <p class="fmc-title">Family Medicine Center</p>
+                    <p class="fmc-title"><?php bloginfo('name'); ?></p>
                     <p class="fmc-slogan">The <img class="fmc-uthsc-future" src="/wp-content/themes/uthscblogs-fmc/img/uthsc-future.png" alt="future"> of healthcare today</p>
                 </a>
             </div>
