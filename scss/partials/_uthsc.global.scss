@@ -30,4 +30,27 @@ body {
     }
   }
 
+  .fmc-faculty-physician-bios {
+    strong:first-of-type {
+      border-bottom: 1px solid;
+      display: block;
+    }
+    .columns {
+      p {
+        padding: 1rem;
+        background-color: #eeeeee;
+        &:nth-child(even) {
+          background-color: #dddddd;
+        }
+      }
+      &:nth-child(odd) {
+        p {
+          background-color: #dddddd;
+          &:nth-child(even) {
+            background-color: #eeeeee;
+          }
+        }
+      }
+    }
+  }
 }
