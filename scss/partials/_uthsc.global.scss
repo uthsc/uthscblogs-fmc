@@ -53,4 +53,49 @@ body {
       }
     }
   }
+.full-width {
+  max-width: 100% !important;
+  .row{
+    margin: 0 auto;
+    max-width: 71.25rem;
+    width: 100%;
+  }
+}
+  .background-stripe {
+    background: linear-gradient( rgba(255, 255, 255, 0.60), rgba(0, 0, 0, 0.60) ),
+    url("../img/fmc-hero.jpg");
+    background-size: cover;
+    max-width: none !important;
+    margin: 3rem 0 !important;
+    padding: 3rem;
+    background-position: center bottom;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, .2) inset, 0px -3px 3px rgba(0, 0, 0, .2) inset;
+    .fa {
+      padding-bottom: 1rem;
+      color: $fmc-blue-green;
+    }
+    .panel {
+      background-color: rgba(255, 255, 255, .7);
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, .5);
+
+    }
+  }
+  //.orbit-container .orbit-slides-container > * .orbit-caption {
+  //  position: absolute;
+  //  bottom: 0;
+  //  background-color: rgba(51, 51, 51, 0.8);
+  //  color: white;
+  //  width: 100%;
+  //  padding: 0.55556rem 0.77778rem;
+  //  font-size: 0.77778rem;
+  //}
+  //.orbit-bullets {
+  //  display: block;
+  //  float: right;
+  //  margin: 0 20px 30px auto;
+  //  overflow: hidden;
+  //  position: relative;
+  //  text-align: center;
+  //  top: -31px;
+  //}
 }
