@@ -157,3 +157,36 @@ function wpufe_javascript() {
     }
 }
 add_action( 'wp_footer', 'wpufe_javascript',20 );
+
+// ==(begin)== backtrace function =========
+
+function uthsc_call_stack($stacktrace = array()) {
+
+    !$stacktrace && ($stacktrace = debug_backtrace()) && array_shift($stacktrace);
+
+    print "<table class='stack small-text-center'>";
+    print "<tr>";
+    print "<th colspan='4' style='background: brown; color: #fff;'>Backtrace</th>";
+    print "</tr>";
+    print "<tr>";
+    print "<th style='background: #555; color: #fff;'>Order</th>";
+    print "<th style='background: #666; color: #fff;font-weight: 200;'>/path/<strong>filename.php</strong></th>";
+    print "<th style='background: #555; color: #fff;width: 20%;'>Function</th>";
+    print "<th style='background: #666; color: #fff;width: 5%;'>Line</th>";
+    print "</tr>";
+
+    $i = 1;
+    foreach($stacktrace as $node) {
+        print "<tr>
+                    <td style='text-align: center;'>$i. </td>
+                    <td style='text-align: right;'>".dirname($node['file'])."/<strong>".basename($node['file']) ."</strong></td>
+                    <td style='text-align: center;'>" .$node['function'] . "</td>
+                    <td style='text-align: center;'>" .$node['line']. "</td></tr>";
+        $i++;
+    }
+    print "</table>";
+
+}
+// use uthsc_call_stack(); in header.php to execute
+
+// ===(end)=== backtrace function =========
